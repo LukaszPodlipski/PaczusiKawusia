@@ -81,7 +81,7 @@
 }
 
 .wrapper .nav .navi a img {
-  content: url("/Pączuś i Kawusia [main]/phts/logopik.png");
+  content: url("../phts/logopik.png");
   max-width: 200px;
   padding-left: 50px;
   margin-top: 20px;
@@ -246,7 +246,7 @@
 
 @media screen and (max-width: 2800px) and (orientation: landscape) {
   .wrapper .navi img {
-    content: url("/Pączuś i Kawusia [main]/phts/logopik.png");
+    content: url("../phts/logopik.png");
     max-width: 300px;
     padding-left: 50px;
     margin-top: 20px;
@@ -927,7 +927,7 @@
             transform: translateX(-2px);
   }
   body .wrapper .nav .navi a.logoBox img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 300px;
     padding-left: 50px;
     margin-top: 0;
@@ -1168,7 +1168,7 @@
             transform: translateX(-2px);
   }
   body .wrapper .nav .navi a.logoBox img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 300px;
     padding-left: 50px;
     margin-top: 0;
@@ -1406,7 +1406,7 @@
             transform: translateX(-2px);
   }
   body .wrapper .nav .navi a.logoBox img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 300px;
     padding-left: 50px;
     margin-top: 0;
@@ -1808,7 +1808,7 @@
             transform: translateX(-2px);
   }
   body .wrapper .nav .navi a.logoBox img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 300px;
     padding-left: 50px;
     margin-top: 0;
@@ -2046,7 +2046,7 @@
             transform: translateX(-2px);
   }
   body .wrapper .nav .navi a.logoBox img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 200px;
     padding-left: 0;
     margin-top: 0;
@@ -2270,7 +2270,7 @@
     margin-right: 0;
   }
   body .wrapper .nav .navi a.logoBox img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 200px;
     padding-left: 0;
     margin-top: 0;
@@ -2490,7 +2490,7 @@
     margin-right: 0;
   }
   body .wrapper .nav .navi a.logoBox img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 200px;
     padding-left: 0;
     margin-top: 0;
@@ -2717,7 +2717,7 @@
     color: #d54049;
   }
   body .wrapper .nav .navi a.logoBox img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 150px;
     padding-left: 0;
     margin-top: 0;
@@ -2933,7 +2933,7 @@
     color: #d54049;
   }
   body .wrapper .nav .navi a.logoBox img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 150px;
     padding-left: 0;
     margin-top: 0;
@@ -3164,7 +3164,7 @@
             transform: translateX(-2px);
   }
   body .wrapper .nav .navi a.logoBox img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 200px;
     padding-left: 0;
     margin-top: 0;
@@ -3404,7 +3404,7 @@
             transform: translateX(-2px);
   }
   body .wrapper .nav .navi a.logoBox img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 200px;
     padding-left: 0;
     margin-top: 0;
@@ -3645,7 +3645,7 @@
             transform: translateX(-2px);
   }
   body .wrapper .nav .navi a.logoBox img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 200px;
     padding-left: 0;
     margin-top: 0;
@@ -3882,7 +3882,7 @@
             transform: translateX(-2px);
   }
   body .wrapper .nav .navi a.logoBox img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 200px;
     padding-left: 0;
     margin-top: 0;
@@ -4148,7 +4148,7 @@
 }
 
 .wrapperCD .navCD .naviCD a img {
-  content: url("/Pączuś i Kawusia [main]/phts/logopik.png");
+  content: url("../phts/logopik.png");
   max-width: 200px;
   padding-left: 50px;
   margin-top: 20px;
@@ -4384,7 +4384,7 @@
     display: none;
   }
   .wrapperCD .navCD .naviCD a img {
-    content: url("/Pączuś i Kawusia [main]/phts/logopik.png");
+    content: url("../phts/logopik.png");
     max-width: 200px;
     padding-left: 50px;
     margin-top: 20px;
@@ -4599,7 +4599,7 @@
     display: none;
   }
   .wrapperCD .navCD .naviCD a img {
-    content: url("/Pączuś i Kawusia [main]/phts/logopik.png");
+    content: url("../phts/logopik.png");
     max-width: 200px;
     padding-left: 50px;
     margin-top: 20px;
@@ -4814,7 +4814,7 @@
     display: none;
   }
   .wrapperCD .navCD .naviCD a img {
-    content: url("/Pączuś i Kawusia [main]/phts/logopik.png");
+    content: url("../phts/logopik.png");
     max-width: 200px;
     padding-left: 50px;
     margin-top: 20px;
@@ -5089,7 +5089,7 @@
     display: none;
   }
   .wrapperCD .navCD .naviCD a img {
-    content: url("/Pączuś i Kawusia [main]/phts/logopik.png");
+    content: url("../phts/logopik.png");
     max-width: 200px;
     padding-left: 50px;
     margin-top: 20px;
@@ -5305,7 +5305,7 @@
     display: none;
   }
   .wrapperCD .navCD .naviCD a img {
-    content: url("/Pączuś i Kawusia [main]/phts/logopik.png");
+    content: url("../phts/logopik.png");
     max-width: 200px;
     padding-left: 50px;
     margin-top: 20px;
@@ -5960,7 +5960,7 @@
             transform: translateX(-3px);
   }
   body .wrapperCD .navCD .naviCD a.logoBoxCD img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 300px;
     padding-left: 50px;
     margin-top: 0;
@@ -6200,7 +6200,7 @@
             transform: translateX(-3px);
   }
   body .wrapperCD .navCD .naviCD a.logoBoxCD img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 300px;
     padding-left: 50px;
     margin-top: 0;
@@ -6440,7 +6440,7 @@
             transform: translateX(-3px);
   }
   body .wrapperCD .navCD .naviCD a.logoBoxCD img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 300px;
     padding-left: 50px;
     margin-top: 0;
@@ -6860,7 +6860,7 @@
             transform: translateX(-3px);
   }
   .wrapperCD .navCD .naviCD a.logoBoxCD img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 300px;
     padding-left: 50px;
     margin-top: 0;
@@ -7106,7 +7106,7 @@
             transform: translateX(-3px);
   }
   .wrapperCD .navCD .naviCD a.logoBoxCD img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 300px;
     padding-left: 50px;
     margin-top: 0;
@@ -7351,7 +7351,7 @@
             transform: translateX(-2px);
   }
   body .wrapperCD .navCD .naviCD a.logoBoxCD img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 200px;
     padding-left: 0;
     margin-top: 0;
@@ -7586,7 +7586,7 @@
             transform: translateX(-2px);
   }
   body .wrapperCD .navCD .naviCD a.logoBoxCD img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 200px;
     padding-left: 0;
     margin-top: 0;
@@ -7821,7 +7821,7 @@
             transform: translateX(-2px);
   }
   body .wrapperCD .navCD .naviCD a.logoBoxCD img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 200px;
     padding-left: 0;
     margin-top: 0;
@@ -8056,7 +8056,7 @@
             transform: translateX(-2px);
   }
   body .wrapperCD .navCD .naviCD a.logoBoxCD img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 200px;
     padding-left: 0;
     margin-top: 0;
@@ -8279,7 +8279,7 @@
     color: #886290;
   }
   body .wrapperCD .navCD .naviCD a.logoBoxCD img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 150px;
     padding-left: 0;
     margin-top: 0;
@@ -8492,7 +8492,7 @@
     color: #886290;
   }
   body .wrapperCD .navCD .naviCD a.logoBoxCD img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 150px;
     padding-left: 0;
     margin-top: 0;
@@ -8718,7 +8718,7 @@
             transform: translateX(-2px);
   }
   body .wrapperCD .navCD .naviCD a.logoBoxCD img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 200px;
     padding-left: 0;
     margin-top: 0;
@@ -8956,7 +8956,7 @@
             transform: translateX(-3px);
   }
   body .wrapperCD .navCD .naviCD a.logoBoxCD img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 200px;
     padding-left: 0;
     margin-top: 0;
@@ -9201,7 +9201,7 @@
             transform: translateX(-3px);
   }
   body .wrapperCD .navCD .naviCD a.logoBoxCD img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 200px;
     padding-left: 0;
     margin-top: 0;
@@ -9446,7 +9446,7 @@
             transform: translateX(-3px);
   }
   body .wrapperCD .navCD .naviCD a.logoBoxCD img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 200px;
     padding-left: 0;
     margin-top: 0;
@@ -9691,7 +9691,7 @@
             transform: translateX(-3px);
   }
   body .wrapperCD .navCD .naviCD a.logoBoxCD img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 200px;
     padding-left: 0;
     margin-top: 0;
@@ -9936,7 +9936,7 @@
             transform: translateX(-3px);
   }
   body .wrapperCD .navCD .naviCD a.logoBoxCD img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 200px;
     padding-left: 0;
     margin-top: 0;
@@ -10208,7 +10208,7 @@
 }
 
 .wrapperTR .navTR .naviTR a img {
-  content: url("/Pączuś i Kawusia [main]/phts/logopik.png");
+  content: url("../phts/logopik.png");
   max-width: 200px;
   padding-left: 50px;
   margin-top: 20px;
@@ -10377,7 +10377,7 @@
 
 @media screen and (max-width: 2800px) and (orientation: landscape) {
   .wrapperTR .naviTR img {
-    content: url("/Pączuś i Kawusia [main]/phts/logopik.png");
+    content: url("../phts/logopik.png");
     max-width: 300px;
     padding-left: 50px;
     margin-top: 20px;
@@ -11058,7 +11058,7 @@
             transform: translateX(-3px);
   }
   body .wrapperTR .navTR .naviTR a.logoBoxTR img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 300px;
     padding-left: 50px;
     margin-top: 0;
@@ -11297,7 +11297,7 @@
             transform: translateX(-3px);
   }
   body .wrapperTR .navTR .naviTR a.logoBoxTR img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 300px;
     padding-left: 50px;
     margin-top: 0;
@@ -11536,7 +11536,7 @@
             transform: translateX(-3px);
   }
   body .wrapperTR .navTR .naviTR a.logoBoxTR img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 300px;
     padding-left: 50px;
     margin-top: 0;
@@ -11939,7 +11939,7 @@
             transform: translateX(-3px);
   }
   .wrapperTR .navTR .naviTR a.logoBoxTR img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 300px;
     padding-left: 50px;
     margin-top: 0;
@@ -12180,7 +12180,7 @@
             transform: translateX(-3px);
   }
   .wrapperTR .navTR .naviTR a.logoBoxTR img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 300px;
     padding-left: 50px;
     margin-top: 0;
@@ -12420,7 +12420,7 @@
             transform: translateX(-2px);
   }
   body .wrapperTR .navTR .naviTR a.logoBoxTR img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 200px;
     padding-left: 0;
     margin-top: 0;
@@ -12654,7 +12654,7 @@
             transform: translateX(-2px);
   }
   body .wrapperTR .navTR .naviTR a.logoBoxTR img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 200px;
     padding-left: 0;
     margin-top: 0;
@@ -12879,7 +12879,7 @@
     margin-right: 0;
   }
   body .wrapperTR .navTR .naviTR a.logoBoxTR img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 200px;
     padding-left: 0;
     margin-top: 0;
@@ -13103,7 +13103,7 @@
     margin-right: 0;
   }
   body .wrapperTR .navTR .naviTR a.logoBoxTR img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 200px;
     padding-left: 0;
     margin-top: 0;
@@ -13323,7 +13323,7 @@
     color: #7a2c40;
   }
   body .wrapperTR .navTR .naviTR a.logoBoxTR img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 150px;
     padding-left: 0;
     margin-top: 0;
@@ -13537,7 +13537,7 @@
     color: #7a2c40;
   }
   body .wrapperTR .navTR .naviTR a.logoBoxTR img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 150px;
     padding-left: 0;
     margin-top: 0;
@@ -13767,7 +13767,7 @@
             transform: translateX(-3px);
   }
   body .wrapperTR .navTR .naviTR a.logoBoxTR img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 200px;
     padding-left: 0;
     margin-top: 0;
@@ -14007,7 +14007,7 @@
             transform: translateX(-3px);
   }
   body .wrapperTR .navTR .naviTR a.logoBox img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 200px;
     padding-left: 0;
     margin-top: 0;
@@ -14248,7 +14248,7 @@
             transform: translateX(-3px);
   }
   body .wrapperTR .navTR .naviTR a.logoBox img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 200px;
     padding-left: 0;
     margin-top: 0;
@@ -14489,7 +14489,7 @@
             transform: translateX(-3px);
   }
   body .wrapperTR .navTR .naviTR a.logoBoxTR img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 200px;
     padding-left: 0;
     margin-top: 0;
@@ -14724,7 +14724,7 @@
             transform: translateX(-3px);
   }
   body .wrapperTR .navTR .naviTR a.logoBoxTR img {
-    content: url("/Pączuś i Kawusia [main]/phts/logomobile.png");
+    content: url("../phts/logomobile.png");
     max-width: 200px;
     padding-left: 0;
     margin-top: 0;
@@ -14988,7 +14988,7 @@
 }
 
 .wrapperCT .navCT .naviCT a img {
-  content: url("/Pączuś i Kawusia [main]/phts/logopik.png");
+  content: url("../phts/logopik.png");
   max-width: 200px;
   padding-left: 50px;
   margin-top: 20px;
@@ -15128,7 +15128,7 @@
 
 @media screen and (max-width: 2800px) and (orientation: landscape) {
   .wrapperCT .naviCT img {
-    content: url("/Pączuś i Kawusia [main]/phts/logopik.png");
+    content: url("../phts/logopik.png");
     max-width: 300px;
     padding-left: 50px;
     margin-top: 20px;
