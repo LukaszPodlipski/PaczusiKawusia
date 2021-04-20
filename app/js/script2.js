@@ -121,7 +121,7 @@ if (screen.width < 361) {
   $(window).scroll(function () {
     console.log("tak4");
     $(".circleTR").css({
-      "margin-top": -$(window).scrollTop() / 1.5 + "px",
+      "margin-top": -$(window).scrollTop() / 1 + "px",
       // "margin-left": -$(window).scrollLeft() / 5 + "px",
     });
   });
