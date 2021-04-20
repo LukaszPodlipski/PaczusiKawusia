@@ -6,6 +6,14 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   overflow: hidden;
+  input,
+  textarea,
+  button,
+  select,
+  a,
+  i {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
 }
 
 .wrapper {
@@ -56,7 +64,7 @@
           display: none;
         }
         img {
-          content: url("phts/logopik.png");
+          content: url("../phts/logopik.png");
           max-width: 200px;
           padding-left: 50px;
           margin-top: 20px;
@@ -1522,7 +1530,7 @@
   }
   body {
     .wrapper {
-      height: 180vh;
+      height: 160vh;
       grid-template-columns: 1fr;
       grid-template-rows: 0.5fr 1fr 2.5fr 0.3fr 0.7fr 2fr 0.4fr;
       grid-template-areas:
@@ -1708,8 +1716,8 @@
         width: 150%;
         height: 100%;
         background-color: #d54049;
-        transform: translate(-300px, 400px);
-        clip-path: circle(1000px at right 1000px);
+        transform: translate(-700px, 460px) scale(2);
+        clip-path: circle(800px at right 1000px);
         transition: 0.1s;
         z-index: -1;
       }
@@ -2300,6 +2308,8 @@
 @media (max-width: 375px) and (orientation: portrait) and (min-height: 800px) {
   body {
     .wrapper {
+      height: 160vh;
+
       .nav {
         .mobilenavi {
           top: 56%;
@@ -2417,7 +2427,7 @@
           margin: 0 30px;
           text-align: center;
           color: white;
-          line-height: 20px;
+          line-height: 145%;
         }
       }
       .imgBoxHolder {
@@ -2488,8 +2498,8 @@
         width: 150%;
         height: 100%;
         background-color: #d54049;
-        transform: translate(0px, 280px);
-        clip-path: circle(800px at right 800px);
+        transform: translate(-400px, 370px) scale(2);
+        clip-path: circle(700px at right 800px);
         transition: 0.1s;
         z-index: -1;
       }
@@ -2641,7 +2651,6 @@
       }
 
       .thumbsBox {
-        // justify-self: center;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -2670,14 +2679,10 @@
         position: fixed;
         top: 0;
         left: 0;
-        // height: 1000px;
-        // width: 1000px;
-        // display: table-cell;
-        // vertical-align: bottom;
         width: 150%;
         height: 100%;
         background-color: #d54049;
-        transform: translate(0px, 280px);
+        transform: translate(0px, 280px) scale(1.2);
         clip-path: circle(800px at right 800px);
         transition: 0.1s;
         z-index: -1;
