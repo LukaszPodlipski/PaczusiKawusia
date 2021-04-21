@@ -12624,11 +12624,11 @@
     overflow-x: hidden;
   }
   body .wrapperTR {
-    height: 180vh;
+    height: 160vh;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    -ms-grid-rows: 0.5fr 0.8fr 1fr 2.5fr 0.5fr;
-        grid-template-rows: 0.5fr 0.8fr 1fr 2.5fr 0.5fr;
+    -ms-grid-rows: 0.5fr 1fr 1fr 2.3fr 0.5fr;
+        grid-template-rows: 0.5fr 1fr 1fr 2.3fr 0.5fr;
         grid-template-areas: "nav" "titleText" "imgBox" "mainText" "sideright";
   }
   body .wrapperTR .navTR {
