@@ -493,10 +493,10 @@
     padding: 35px;
     font-size: 20px;
   }
-  .wrapper .nav a img {
-    max-width: 240px;
-    padding-left: 70px;
-    margin-top: 0px;
+  .wrapper .nav .navi a img {
+    max-width: 230px;
+    padding-left: 80px;
+    margin-top: 20px;
   }
   .wrapper .titleText {
     -ms-flex-item-align: end;
@@ -541,7 +541,7 @@
   }
 }
 
-@media only screen and (max-width: 1680px) and (min-height: 1000px) and (orientation: landscape) {
+@media only screen and (max-width: 1680px) and (min-height: 1050px) and (orientation: landscape) {
   .wrapper {
     -ms-grid-columns: 1.3fr 2fr 4fr 4fr 2fr 1.3fr;
         grid-template-columns: 1.3fr 2fr 4fr 4fr 2fr 1.3fr;
@@ -5260,7 +5260,7 @@
   }
 }
 
-@media only screen and (max-width: 1680px) and (min-height: 1000px) and (orientation: landscape) {
+@media only screen and (max-width: 1680px) and (min-height: 1050px) and (orientation: landscape) {
   .wrapperCD {
     display: -ms-grid;
     display: grid;
@@ -5488,6 +5488,7 @@
   .wrapperCD .navCD .naviCD a img {
     max-width: 190px;
     padding-left: 30px;
+    margin-top: -5px;
   }
   .wrapperCD .titleTextCD {
     -ms-grid-row: 2;
@@ -5671,9 +5672,9 @@
     color: #7d7d7d;
   }
   .wrapperCD .navCD .naviCD a img {
-    max-width: 150px;
-    padding-left: 0px;
-    margin-top: 20px;
+    max-width: 160px;
+    padding-left: 15px;
+    margin-top: -5px;
   }
   .wrapperCD .imgBoxHolderCD {
     -webkit-transform: translate(0px, 50px);
@@ -5765,8 +5766,9 @@
     font-size: 20px;
   }
   .wrapperCD .navCD .naviCD a img {
-    max-width: 190px;
-    padding-left: 30px;
+    max-width: 160px;
+    padding-left: 15px;
+    margin-top: 25px;
   }
   .wrapperCD .titleTextCD {
     -ms-grid-row: 2;
@@ -5852,7 +5854,7 @@
   .wrapperCD .navCD .naviCD a img {
     max-width: 150px;
     padding-left: 0px;
-    margin-top: -5px;
+    margin-top: -7px;
   }
   .wrapperCD .imgBoxHolderCD {
     -webkit-transform: translate(0px, 40px);
@@ -10644,10 +10646,10 @@
     padding: 35px;
     font-size: 20px;
   }
-  .wrapperTR .navTR a img {
-    max-width: 240px;
-    padding-left: 70px;
-    margin-top: 0px;
+  .wrapperTR .navTR .naviTR a img {
+    max-width: 230px;
+    padding-left: 80px;
+    margin-top: 20px;
   }
   .wrapperTR .titleTextTR {
     -ms-flex-item-align: end;
@@ -15615,8 +15617,8 @@
     -ms-flex-item-align: end;
         -ms-grid-row-align: end;
         align-self: end;
-    width: 95%;
-    height: 95%;
+    width: 90%;
+    height: 90%;
   }
   .wrapperCT .imgBoxHolderCT .mapboxCT {
     width: 100%;
@@ -15701,8 +15703,8 @@
     -ms-flex-item-align: end;
         -ms-grid-row-align: end;
         align-self: end;
-    width: 95%;
-    height: 95%;
+    width: 90%;
+    height: 90%;
   }
   .wrapperCT .imgBoxHolderCT .mapboxCT {
     width: 100%;
@@ -15773,8 +15775,8 @@
     -ms-flex-item-align: end;
         -ms-grid-row-align: end;
         align-self: end;
-    width: 95%;
-    height: 95%;
+    width: 90%;
+    height: 90%;
   }
   .wrapperCT .imgBoxHolderCT .mapboxCT {
     width: 100%;
@@ -15840,8 +15842,8 @@
     -ms-flex-item-align: end;
         -ms-grid-row-align: end;
         align-self: end;
-    width: 95%;
-    height: 95%;
+    width: 90%;
+    height: 90%;
   }
   .wrapperCT .imgBoxHolderCT .mapboxCT {
     width: 100%;
@@ -15878,7 +15880,9 @@
         grid-template-rows: 1fr 5.5fr 3.5fr 1fr;
   }
   .wrapperCT .navCT .naviCT a img {
-    max-width: 170px;
+    max-width: 160px;
+    padding-left: 15px;
+    margin-top: 30px;
   }
   .wrapperCT .titleTextCT {
     -ms-flex-item-align: end;
@@ -15907,7 +15911,7 @@
     -ms-flex-item-align: end;
         -ms-grid-row-align: end;
         align-self: end;
-    width: 95%;
+    width: 90%;
     height: 90%;
   }
   .wrapperCT .imgBoxHolderCT .mapboxCT {
@@ -15939,13 +15943,13 @@
 
 @media only screen and (max-width: 1366px) and (orientation: landscape) {
   .wrapperCT {
-    -ms-grid-columns: 1.3fr 4fr 4fr 2fr 1.5fr 1.3fr;
-        grid-template-columns: 1.3fr 4fr 4fr 2fr 1.5fr 1.3fr;
-    -ms-grid-rows: 1fr 5.5fr 2.5fr 2fr;
-        grid-template-rows: 1fr 5.5fr 2.5fr 2fr;
+    -ms-grid-columns: 0.8fr 4.5fr 4fr 2fr 1.5fr 1.3fr;
+        grid-template-columns: 0.8fr 4.5fr 4fr 2fr 1.5fr 1.3fr;
+    -ms-grid-rows: 1fr 5.5fr 3.5fr 1fr;
+        grid-template-rows: 1fr 5.5fr 3.5fr 1fr;
   }
   .wrapperCT .navCT .naviCT a img {
-    max-width: 170px;
+    max-width: 160px;
   }
   .wrapperCT .titleTextCT {
     -ms-flex-item-align: end;
@@ -15974,8 +15978,8 @@
     -ms-flex-item-align: end;
         -ms-grid-row-align: end;
         align-self: end;
-    width: 95%;
-    height: 95%;
+    width: 90%;
+    height: 90%;
   }
   .wrapperCT .imgBoxHolderCT .mapboxCT {
     width: 100%;
@@ -16051,8 +16055,8 @@
     -ms-flex-item-align: end;
         -ms-grid-row-align: end;
         align-self: end;
-    width: 95%;
-    height: 92%;
+    width: 90%;
+    height: 90%;
   }
   .wrapperCT .imgBoxHolderCT .mapboxCT {
     width: 100%;
