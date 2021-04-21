@@ -713,7 +713,7 @@
     -ms-grid-column-span: 2;
     grid-area: mainText;
     font-size: 18px;
-    line-height: 35px;
+    line-height: 32px;
   }
   .wrapper .imgBoxHolder {
     -webkit-transform: translate(40px, 50px);
@@ -10860,7 +10860,7 @@
     -ms-grid-column-span: 2;
     grid-area: mainText;
     font-size: 18px;
-    line-height: 35px;
+    line-height: 30px;
   }
   .wrapperTR .imgBoxHolderTR {
     -webkit-transform: translate(40px, 50px);
@@ -15908,7 +15908,7 @@
         -ms-grid-row-align: end;
         align-self: end;
     width: 95%;
-    height: 95%;
+    height: 90%;
   }
   .wrapperCT .imgBoxHolderCT .mapboxCT {
     width: 100%;
