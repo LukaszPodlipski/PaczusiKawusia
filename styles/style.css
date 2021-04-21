@@ -9,6 +9,7 @@
           box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   overflow: hidden;
+  overscroll-behavior: contain;
 }
 
 * input,
