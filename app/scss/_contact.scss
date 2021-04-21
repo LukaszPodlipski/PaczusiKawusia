@@ -604,8 +604,8 @@
 }
 @media only screen and (max-width: 1440px) and (orientation: landscape) {
   .wrapperCT {
-    grid-template-columns: 1.3fr 4fr 4fr 2fr 2fr 0.8fr;
-    grid-template-rows: 1fr 5.5fr 2.5fr 2fr;
+    grid-template-columns: 0.8fr 4.5fr 4fr 2fr 2fr 0.8fr;
+    grid-template-rows: 1fr 5.5fr 3.5fr 1fr;
     .navCT {
       .naviCT {
         a img {
@@ -724,8 +724,8 @@
 }
 @media only screen and (max-width: 1280px) and (orientation: landscape) {
   .wrapperCT {
-    grid-template-columns: 1.3fr 4fr 4fr 2fr 1.8fr 1fr;
-    grid-template-rows: 1fr 5.5fr 2.5fr 2fr;
+    grid-template-columns: 1fr 4.3fr 4fr 2fr 1.8fr 1fr;
+    grid-template-rows: 1fr 5.5fr 3.5fr 1fr;
     .navCT {
       .naviCT {
         ul {
@@ -1945,7 +1945,7 @@
   }
   body {
     .wrapperCT {
-      height: 100vh;
+      height: 170vh;
       grid-template-columns: 1fr;
       grid-template-rows: 0.5fr 0.8fr 1.2fr 1.4fr;
       grid-template-areas:
@@ -2005,7 +2005,7 @@
           align-items: center;
           backdrop-filter: blur(100px);
           z-index: 1;
-          top: 58%;
+          top: 59%;
           left: 150%;
           width: 100%;
           height: 90%;

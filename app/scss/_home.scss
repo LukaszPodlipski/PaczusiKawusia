@@ -2280,7 +2280,7 @@
   }
   body {
     .wrapper {
-      height: 180vh;
+      height: 170vh;
       grid-template-columns: 1fr;
       grid-template-rows: 1.2fr 3fr 4fr 1fr 4fr 6fr 1fr;
       grid-template-areas:
@@ -2447,7 +2447,7 @@
         width: 150%;
         height: 100%;
         background-color: #d54049;
-        transform: translate(-400px, 370px) scale(2);
+        transform: translate(-400px, 400px) scale(2);
         clip-path: circle(700px at right 800px);
         transition: 0.1s;
         z-index: -1;
