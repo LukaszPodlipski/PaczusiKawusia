@@ -11,13 +11,13 @@
 .wrapperCT {
   display: grid;
   height: 100vh;
-  grid-template-columns: 1.3fr 4fr 4fr 2fr 1.5fr 1.3fr;
-  grid-template-rows: 1fr 5.5fr 2.5fr 2fr;
+  grid-template-columns: 0.8fr 4.5fr 4fr 2fr 1.5fr 1.3fr;
+  grid-template-rows: 1fr 5.5fr 3.5fr 1fr;
   grid-template-areas:
     "nav nav nav nav nav nav"
-    "imgBox imgBox imgBox  titleText titleText sideright"
-    "imgBox  imgBox imgBox  mainText mainText sideright"
-    "imgBox imgBox imgBox thumbs description description";
+    "asideleft imgBox imgBox  titleText titleText sideright"
+    "asideleft  imgBox imgBox  mainText mainText sideright"
+    "leftDownAside leftDownAside thumbs thumbs description description";
   grid-gap: 0.1em;
   justify-content: left;
   align-items: center;
@@ -140,10 +140,6 @@
     position: fixed;
     top: 0;
     left: 0;
-    // height: 1000px;
-    // width: 1000px;
-    // display: table-cell;
-    // vertical-align: bottom;
     width: 100%;
     height: 100%;
     background-color: #cad8dc;
@@ -197,13 +193,13 @@
   .wrapperCT {
     display: grid;
     height: 100vh;
-    grid-template-columns: 1.3fr 4fr 4fr 2fr 1.5fr 1.3fr;
-    grid-template-rows: 1fr 5.5fr 2.5fr 2fr;
+    grid-template-columns: 0.8fr 4.5fr 4fr 2fr 1.5fr 1.3fr;
+    grid-template-rows: 1fr 5.5fr 3.5fr 1fr;
     grid-template-areas:
       "nav nav nav nav nav nav"
-      "imgBox imgBox imgBox  titleText titleText sideright"
-      "imgBox  imgBox imgBox  mainText mainText sideright"
-      "imgBox imgBox imgBox thumbs description description";
+      "asideleft imgBox imgBox  titleText titleText sideright"
+      "asideleft  imgBox imgBox  mainText mainText sideright"
+      "leftDownAside leftDownAside thumbs thumbs description description";
     grid-gap: 0.1em;
     justify-content: left;
     align-items: center;
@@ -320,8 +316,8 @@
 }
 @media screen and (max-width: 2000px) and (orientation: landscape) {
   .wrapperCT {
-    grid-template-columns: 1.3fr 4fr 4fr 2fr 1.5fr 1.3fr;
-    grid-template-rows: 1fr 5.5fr 2.5fr 2fr;
+    grid-template-columns: 0.8fr 4.5fr 4fr 2fr 1.5fr 1.3fr;
+    grid-template-rows: 1fr 5.5fr 3.5fr 1fr;
     .navCT {
       .naviCT {
         li {
@@ -398,8 +394,8 @@
 }
 @media only screen and (max-width: 1680px) and (orientation: landscape) {
   .wrapperCT {
-    grid-template-columns: 1.3fr 4fr 4fr 2fr 1.5fr 1.3fr;
-    grid-template-rows: 1fr 5.5fr 2.5fr 2fr;
+    grid-template-columns: 0.8fr 4.5fr 4fr 2fr 1.5fr 1.3fr;
+    grid-template-rows: 1fr 5.5fr 4fr 0.5fr;
     .navCT {
       padding: 30px 60px 0 100px;
 
@@ -472,8 +468,8 @@
 
 @media only screen and (max-width: 1680px) and(min-height:1000px) and (orientation: landscape) {
   .wrapperCT {
-    grid-template-columns: 1.3fr 4fr 4fr 2fr 1.5fr 1.3fr;
-    grid-template-rows: 1fr 5.5fr 2.5fr 2fr;
+    grid-template-columns: 0.8fr 4.5fr 4fr 2fr 1.5fr 1.3fr;
+    grid-template-rows: 1fr 5.5fr 3.5fr 1fr;
   }
 }
 
@@ -548,8 +544,8 @@
 }
 @media only screen and (max-width: 1536px) and (orientation: landscape) {
   .wrapperCT {
-    grid-template-columns: 1.3fr 4fr 4fr 2fr 1.8fr 1fr;
-    grid-template-rows: 1fr 5.5fr 2.5fr 2fr;
+    grid-template-columns: 0.8fr 4.5fr 4fr 2fr 1.5fr 1.3fr;
+    grid-template-rows: 1fr 5.5fr 3.5fr 1fr;
     .navCT {
       .naviCT {
         a img {
@@ -929,7 +925,6 @@
       }
 
       .thumbsBoxCT {
-        // justify-self: center;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -958,10 +953,6 @@
         position: fixed;
         top: 0;
         left: 0;
-        // height: 1000px;
-        // width: 1000px;
-        // display: table-cell;
-        // vertical-align: bottom;
         width: 150%;
         height: 100%;
         transform: translate(-200px, 650px);
@@ -980,14 +971,155 @@
   body {
     overflow: auto;
     .wrapperCT {
+      height: 100vh;
+      grid-template-columns: 1fr;
+      grid-template-rows: 0.5fr 1fr 2fr 1.5fr 0.2fr;
+      grid-template-areas:
+        "nav"
+        "titleText"
+        "imgBox"
+        "mainText"
+        "sideright";
+
+      .navCT {
+        margin-top: 30px;
+        align-self: start;
+        padding: 0;
+
+        .naviCT {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          ul {
+            display: none;
+          }
+          a.hamburger {
+            i.fa-bars {
+              margin-left: 50px;
+              margin-right: 50px;
+
+              display: inline-block;
+              overflow: hidden;
+              font-size: 32px;
+              text-decoration: none;
+              color: #cad8dc;
+            }
+            i.fa-times {
+              margin-left: 50px;
+              margin-right: 50px;
+              display: inline-block;
+              overflow: hidden;
+              font-size: 32px;
+              text-decoration: none;
+              color: #cad8dc;
+              transform: translateX(-3px);
+            }
+          }
+          a.logoBoxCT {
+            img {
+              content: url("../phts/logomobile.png");
+              max-width: 300px;
+              padding-left: 50px;
+              margin-top: 0;
+            }
+          }
+        }
+
+        .mobilenaviCT {
+          display: flex;
+          position: fixed;
+          justify-content: center;
+          align-items: center;
+          backdrop-filter: blur(100px);
+          z-index: 1;
+          top: 55%;
+          left: 150%;
+          width: 100%;
+          height: 90%;
+          transform: translate(-50%, -50%);
+          background-color: #cad8dc;
+          transition: 0.2s ease-in;
+          .fa-times {
+            position: absolute;
+            font-size: 24px;
+            z-index: 2;
+          }
+          ul {
+            li {
+              list-style: none;
+              text-align: center;
+              a {
+                font-size: 38px;
+                line-height: 250%;
+                text-decoration: none;
+                color: white;
+              }
+            }
+          }
+        }
+      }
+
+      .titleTextCT {
+        width: 100%;
+        align-self: center;
+        justify-self: center;
+        margin-top: 0px;
+        h2 {
+          text-align: center;
+          font-size: 60px;
+          font-weight: 600;
+          line-height: normal;
+        }
+      }
+      .mainTextCT {
+        padding-top: 30px;
+        font-size: 44px;
+        color: white;
+        line-height: 140%;
+        text-align: center;
+      }
+      .imgBoxHolderCT {
+        transform: translate(0, 0);
+        justify-self: center;
+        align-self: center;
+        width: 100%;
+        height: 92%;
+        .mapboxCT {
+          width: 100%;
+          height: 100%;
+          border: 0;
+        }
+      }
+
+      .thumbsBoxCT {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        transform: translateX(00px);
+        padding-bottom: 0px;
+        img {
+          cursor: pointer;
+          padding: 10px;
+          transform: scale(0.7);
+        }
+      }
+      .descBoxCT {
+        grid-area: description;
+        justify-self: center;
+        align-self: start;
+        p {
+          font-size: 64px;
+          color: #de6d74;
+          margin-bottom: 0px;
+          font-weight: 300;
+          padding-right: 0px;
+        }
+      }
       .circleCT {
         position: fixed;
         top: 0;
         left: 0;
-        // height: 1000px;
-        // width: 1000px;
-        // display: table-cell;
-        // vertical-align: bottom;
         width: 150%;
         height: 100%;
         transform: translate(0px, 650px);
@@ -1038,7 +1170,6 @@
     .thumbsBoxCT {
       justify-self: center;
       align-self: end;
-      //   transform: translateX(5px);
 
       img {
         transform: scale(0.55);
@@ -1048,7 +1179,6 @@
           transform: scale(0.7) translateY(-5px);
         }
       }
-      //   padding-bottom: 30px;
     }
     .descBoxCT {
       p {
@@ -1115,7 +1245,6 @@
     .thumbsBoxCT {
       justify-self: center;
       align-self: end;
-      //   transform: translateX(5px);
 
       img {
         transform: scale(0.55);
@@ -1125,7 +1254,6 @@
           transform: scale(0.7) translateY(-5px);
         }
       }
-      //   padding-bottom: 30px;
     }
     .descBoxCT {
       p {
@@ -1272,7 +1400,6 @@
     }
 
     .thumbsBoxCT {
-      // justify-self: center;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
@@ -1301,10 +1428,6 @@
       position: fixed;
       top: 0;
       left: 0;
-      // height: 1000px;
-      // width: 1000px;
-      // display: table-cell;
-      // vertical-align: bottom;
       width: 150%;
       height: 100%;
       transform: translate(-300px, 400px);
@@ -1447,7 +1570,6 @@
     }
 
     .thumbsBoxCT {
-      // justify-self: center;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
@@ -1476,10 +1598,6 @@
       position: fixed;
       top: 0;
       left: 0;
-      // height: 1000px;
-      // width: 1000px;
-      // display: table-cell;
-      // vertical-align: bottom;
       width: 150%;
       height: 100%;
       transform: translate(-300px, 400px);
@@ -1628,7 +1746,6 @@
         }
       }
       .thumbsBoxCT {
-        // justify-self: center;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -1646,10 +1763,6 @@
         position: fixed;
         top: 0;
         left: 0;
-        // height: 1000px;
-        // width: 1000px;
-        // display: table-cell;
-        // vertical-align: bottom;
         width: 150%;
         height: 100%;
         background-color: #cad8dc;
@@ -1797,7 +1910,6 @@
         }
       }
       .thumbsBoxCT {
-        // justify-self: center;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -1815,10 +1927,6 @@
         position: fixed;
         top: 0;
         left: 0;
-        // height: 1000px;
-        // width: 1000px;
-        // display: table-cell;
-        // vertical-align: bottom;
         width: 150%;
         height: 100%;
         background-color: #cad8dc;
@@ -1965,7 +2073,6 @@
         }
       }
       .thumbsBoxCT {
-        // justify-self: center;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -1983,10 +2090,6 @@
         position: fixed;
         top: 0;
         left: 0;
-        // height: 1000px;
-        // width: 1000px;
-        // display: table-cell;
-        // vertical-align: bottom;
         width: 150%;
         height: 100%;
         background-color: #cad8dc;
@@ -2133,7 +2236,6 @@
         }
       }
       .thumbsBoxCT {
-        // justify-self: center;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -2151,10 +2253,6 @@
         position: fixed;
         top: 0;
         left: 0;
-        // height: 1000px;
-        // width: 1000px;
-        // display: table-cell;
-        // vertical-align: bottom;
         width: 150%;
         height: 100%;
         background-color: #cad8dc;
@@ -2301,7 +2399,6 @@
         }
       }
       .thumbsBoxCT {
-        // justify-self: center;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -2319,10 +2416,6 @@
         position: fixed;
         top: 0;
         left: 0;
-        // height: 1000px;
-        // width: 1000px;
-        // display: table-cell;
-        // vertical-align: bottom;
         width: 150%;
         height: 100%;
         background-color: #cad8dc;
@@ -2471,7 +2564,6 @@
         }
       }
       .thumbsBoxCT {
-        // justify-self: center;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -2489,10 +2581,6 @@
         position: fixed;
         top: 0;
         left: 0;
-        // height: 1000px;
-        // width: 1000px;
-        // display: table-cell;
-        // vertical-align: bottom;
         width: 150%;
         height: 100%;
         background-color: #cad8dc;
@@ -2669,14 +2757,12 @@
         }
       }
       .circleCT {
-        // display: none;
         position: fixed;
         top: 0;
         left: 0;
         width: 150%;
         height: 100%;
         transform: translate(0px, 220px);
-        //2980
         clip-path: circle(4000px at right 3000px);
         transition: 0.1s;
         z-index: -1;
@@ -2848,14 +2934,12 @@
         }
       }
       .circleCT {
-        // display: none;
         position: fixed;
         top: 0;
         left: 0;
         width: 150%;
         height: 100%;
         transform: translate(0px, 180px);
-        //2980
         clip-path: circle(4000px at right 3000px);
         transition: 0.1s;
         z-index: -1;
@@ -3027,14 +3111,12 @@
         }
       }
       .circleCT {
-        // display: none;
         position: fixed;
         top: 0;
         left: 0;
         width: 150%;
         height: 100%;
         transform: translate(0px, 220px);
-        //2980
         clip-path: circle(4000px at right 3000px);
         transition: 0.1s;
         z-index: -1;
@@ -3206,14 +3288,12 @@
         }
       }
       .circleCT {
-        // display: none;
         position: fixed;
         top: 0;
         left: 0;
         width: 150%;
         height: 100%;
         transform: translate(0px, 180px);
-        //2980
         clip-path: circle(4000px at right 3000px);
         transition: 0.1s;
         z-index: -1;
@@ -3385,14 +3465,12 @@
         }
       }
       .circleCT {
-        // display: none;
         position: fixed;
         top: 0;
         left: 0;
         width: 150%;
         height: 100%;
         transform: translate(0px, 160px);
-        //2980
         clip-path: circle(4000px at right 3000px);
         transition: 0.1s;
         z-index: -1;

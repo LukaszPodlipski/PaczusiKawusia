@@ -164,10 +164,6 @@
     position: fixed;
     top: 0;
     left: 0;
-    // height: 1000px;
-    // width: 1000px;
-    // display: table-cell;
-    // vertical-align: bottom;
     width: 100%;
     height: 100%;
     background-color: #d54049;
@@ -337,10 +333,6 @@
       position: fixed;
       top: 0;
       left: 0;
-      // height: 1000px;
-      // width: 1000px;
-      // display: table-cell;
-      // vertical-align: bottom;
       width: 100%;
       height: 100%;
       background-color: #d54049;
@@ -917,7 +909,6 @@
       }
 
       .thumbsBox {
-        // justify-self: center;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -946,10 +937,6 @@
         position: fixed;
         top: 0;
         left: 0;
-        // height: 1000px;
-        // width: 1000px;
-        // display: table-cell;
-        // vertical-align: bottom;
         width: 150%;
         height: 100%;
         background-color: #d54049;
@@ -1118,7 +1105,6 @@
       }
 
       .thumbsBox {
-        // justify-self: center;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -1147,10 +1133,6 @@
         position: fixed;
         top: 0;
         left: 0;
-        // height: 1000px;
-        // width: 1000px;
-        // display: table-cell;
-        // vertical-align: bottom;
         width: 150%;
         height: 100%;
         background-color: #d54049;
@@ -1316,7 +1298,6 @@
       }
 
       .thumbsBox {
-        // justify-self: center;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -1345,10 +1326,6 @@
         position: fixed;
         top: 0;
         left: 0;
-        // height: 1000px;
-        // width: 1000px;
-        // display: table-cell;
-        // vertical-align: bottom;
         width: 150%;
         height: 100%;
         background-color: #d54049;
@@ -1412,7 +1389,6 @@
     .thumbsBox {
       justify-self: center;
       align-self: end;
-      //   transform: translateX(5px);
 
       img {
         transform: scale(0.55);
@@ -1422,7 +1398,6 @@
           transform: scale(0.7) translateY(-5px);
         }
       }
-      //   padding-bottom: 30px;
     }
     .descBox {
       p {
@@ -1499,7 +1474,6 @@
     .thumbsBox {
       justify-self: center;
       align-self: end;
-      //   transform: translateX(5px);
 
       img {
         transform: scale(0.55);
@@ -1509,7 +1483,6 @@
           transform: scale(0.7) translateY(-5px);
         }
       }
-      //   padding-bottom: 30px;
     }
     .descBox {
       p {
@@ -1681,7 +1654,6 @@
       }
 
       .thumbsBox {
-        // justify-self: center;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -1710,10 +1682,6 @@
         position: fixed;
         top: 0;
         left: 0;
-        // height: 1000px;
-        // width: 1000px;
-        // display: table-cell;
-        // vertical-align: bottom;
         width: 150%;
         height: 100%;
         background-color: #d54049;
@@ -1882,7 +1850,6 @@
       }
 
       .thumbsBox {
-        // justify-self: center;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -1911,10 +1878,6 @@
         position: fixed;
         top: 0;
         left: 0;
-        // height: 1000px;
-        // width: 1000px;
-        // display: table-cell;
-        // vertical-align: bottom;
         width: 150%;
         height: 100%;
         background-color: #d54049;
@@ -2069,7 +2032,6 @@
       }
 
       .thumbsBox {
-        // justify-self: center;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -2098,10 +2060,7 @@
         position: fixed;
         top: 0;
         left: 0;
-        // height: 1000px;
-        // width: 1000px;
-        // display: table-cell;
-        // vertical-align: bottom;
+
         width: 150%;
         height: 100%;
         background-color: #d54049;
@@ -2262,7 +2221,6 @@
       }
 
       .thumbsBox {
-        // justify-self: center;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -2291,10 +2249,6 @@
         position: fixed;
         top: 0;
         left: 0;
-        // height: 1000px;
-        // width: 1000px;
-        // display: table-cell;
-        // vertical-align: bottom;
         width: 150%;
         height: 100%;
         background-color: #d54049;
@@ -2383,7 +2337,6 @@
           height: 90%;
           transform: translate(-50%, -50%);
           background-color: #d54049;
-          opacity: 0.95;
           transition: 0.2s ease-in;
           .fa-times {
             position: absolute;
@@ -2463,7 +2416,6 @@
       }
 
       .thumbsBox {
-        // justify-self: center;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -2492,10 +2444,6 @@
         position: fixed;
         top: 0;
         left: 0;
-        // height: 1000px;
-        // width: 1000px;
-        // display: table-cell;
-        // vertical-align: bottom;
         width: 150%;
         height: 100%;
         background-color: #d54049;
@@ -2571,7 +2519,6 @@
           height: 90%;
           transform: translate(-50%, -50%);
           background-color: #d54049;
-          opacity: 0.95;
           transition: 0.2s ease-in;
           .fa-times {
             position: absolute;
@@ -2873,7 +2820,6 @@
         }
       }
       .circle {
-        // display: none;
         position: fixed;
         top: 0;
         left: 0;
@@ -2881,7 +2827,6 @@
         height: 100%;
         background-color: #d54049;
         transform: translate(0px, 0px);
-        //2980
         clip-path: circle(2850px at right 3000px);
         transition: 0.1s;
         z-index: -1;
@@ -3071,7 +3016,6 @@
         }
       }
       .circle {
-        // display: none;
         position: fixed;
         top: 0;
         left: 0;
@@ -3079,7 +3023,6 @@
         height: 100%;
         background-color: #d54049;
         transform: translate(0px, 0px);
-        //2980
         clip-path: circle(2850px at right 3000px);
         transition: 0.1s;
         z-index: -1;
@@ -3268,7 +3211,6 @@
         }
       }
       .circle {
-        // display: none;
         position: fixed;
         top: 0;
         left: 0;
@@ -3276,7 +3218,6 @@
         height: 100%;
         background-color: #d54049;
         transform: translate(0px, 0px);
-        //2980
         clip-path: circle(2850px at right 3000px);
         transition: 0.1s;
         z-index: -1;
@@ -3467,7 +3408,6 @@
         }
       }
       .circle {
-        // display: none;
         position: fixed;
         top: 0;
         left: 0;
@@ -3475,7 +3415,6 @@
         height: 100%;
         background-color: #d54049;
         transform: translate(0px, 0px);
-        //2980
         clip-path: circle(2850px at right 3000px);
         transition: 0.1s;
         z-index: -1;
