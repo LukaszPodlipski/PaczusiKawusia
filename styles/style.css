@@ -9,7 +9,6 @@
           box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   overflow: hidden;
-  overscroll-behavior: contain;
 }
 
 * input,
@@ -37,6 +36,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  overscroll-behavior: contain;
 }
 
 .wrapper .nav {
@@ -7559,8 +7559,8 @@
     height: 140vh;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    -ms-grid-rows: 0.3fr 1fr 2.5fr 0.5fr;
-        grid-template-rows: 0.3fr 1fr 2.5fr 0.5fr;
+    -ms-grid-rows: 0.3fr 0.8fr 2.5fr 0.7fr;
+        grid-template-rows: 0.3fr 0.8fr 2.5fr 0.7fr;
         grid-template-areas: "nav" "titleText" "imgBox" "mainText";
   }
   body .wrapperCD .navCD {
@@ -7775,8 +7775,8 @@
     width: 150%;
     height: 100%;
     background-color: #886290;
-    -webkit-transform: translate(0px, 420px) scale(1.2);
-            transform: translate(0px, 420px) scale(1.2);
+    -webkit-transform: translate(0px, 420px) scale(1.5);
+            transform: translate(0px, 420px) scale(1.5);
     -webkit-clip-path: circle(800px at right 800px);
             clip-path: circle(800px at right 800px);
     -webkit-transition: 0.1s;

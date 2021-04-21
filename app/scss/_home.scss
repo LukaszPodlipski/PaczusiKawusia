@@ -6,7 +6,6 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   overflow: hidden;
-  overscroll-behavior: contain;
   input,
   textarea,
   button,
@@ -30,6 +29,7 @@
   grid-gap: 0.1em;
   justify-content: left;
   align-items: center;
+  overscroll-behavior: contain;
 
   .nav {
     padding: 30px 100px 0 100px;
@@ -2105,7 +2105,7 @@
         width: 150%;
         height: 100%;
         background-color: #d54049;
-        transform: translate(0px, 280px);
+        transform: translate(0px, 190px);
         clip-path: circle(800px at right 800px);
         transition: 0.1s;
         z-index: -1;

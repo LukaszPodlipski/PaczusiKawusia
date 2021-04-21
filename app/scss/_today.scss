@@ -2951,7 +2951,7 @@
     .wrapperCD {
       height: 140vh;
       grid-template-columns: 1fr;
-      grid-template-rows: 0.3fr 1fr 2.5fr 0.5fr;
+      grid-template-rows: 0.3fr 0.8fr 2.5fr 0.7fr;
       grid-template-areas:
         "nav"
         "titleText"
@@ -3133,7 +3133,7 @@
         width: 150%;
         height: 100%;
         background-color: #886290;
-        transform: translate(0px, 420px) scale(1.2);
+        transform: translate(0px, 420px) scale(1.5);
         clip-path: circle(800px at right 800px);
         transition: 0.1s;
         z-index: -1;
