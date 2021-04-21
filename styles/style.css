@@ -2445,8 +2445,8 @@
     width: 150%;
     height: 100%;
     background-color: #d54049;
-    -webkit-transform: translate(0px, 190px);
-            transform: translate(0px, 190px);
+    -webkit-transform: translate(0px, 490px) scale(1.8);
+            transform: translate(0px, 490px) scale(1.8);
     -webkit-clip-path: circle(800px at right 800px);
             clip-path: circle(800px at right 800px);
     -webkit-transition: 0.1s;
