@@ -2445,8 +2445,8 @@
     width: 150%;
     height: 100%;
     background-color: #d54049;
-    -webkit-transform: translate(0px, 280px);
-            transform: translate(0px, 280px);
+    -webkit-transform: translate(0px, 190px);
+            transform: translate(0px, 190px);
     -webkit-clip-path: circle(800px at right 800px);
             clip-path: circle(800px at right 800px);
     -webkit-transition: 0.1s;
@@ -12889,7 +12889,7 @@
     overflow: hidden;
     font-size: 28px;
     text-decoration: none;
-    color: #d54049;
+    color: #7a2c40;
   }
   body .wrapperTR .navTR .naviTR a.hamburger i.fa-times {
     margin-right: 0;
@@ -13113,7 +13113,7 @@
     overflow: hidden;
     font-size: 28px;
     text-decoration: none;
-    color: #d54049;
+    color: #7a2c40;
   }
   body .wrapperTR .navTR .naviTR a.hamburgerTR i.fa-times {
     margin-right: 0;
@@ -14705,7 +14705,7 @@
     overflow: hidden;
     font-size: 32px;
     text-decoration: none;
-    color: #d54049;
+    color: #7a2c40;
   }
   body .wrapperTR .navTR .naviTR a.hamburgerTR i.fa-times {
     margin-left: 50px;
@@ -14714,7 +14714,7 @@
     overflow: hidden;
     font-size: 32px;
     text-decoration: none;
-    color: #d54049;
+    color: #7a2c40;
     -webkit-transform: translateX(-3px);
             transform: translateX(-3px);
   }
@@ -14940,7 +14940,7 @@
     overflow: hidden;
     font-size: 32px;
     text-decoration: none;
-    color: #d54049;
+    color: #7a2c40;
   }
   body .wrapperTR .navTR .naviTR a.hamburgerTR i.fa-times {
     margin-left: 50px;
@@ -14949,7 +14949,7 @@
     overflow: hidden;
     font-size: 32px;
     text-decoration: none;
-    color: #d54049;
+    color: #7a2c40;
     -webkit-transform: translateX(-3px);
             transform: translateX(-3px);
   }
