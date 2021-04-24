@@ -618,7 +618,73 @@
     }
   }
 }
-@media only screen and (max-width: 1366px) and (orientation: landscape) {
+@media only screen and (max-width: 1390px) and (max-height: 800px) and (orientation: landscape) {
+  .wrapperTR {
+    grid-template-columns: 1.3fr 2fr 4fr 4fr 2fr 1.3fr;
+    grid-template-rows: 1fr 3.5fr 5.5fr 1fr;
+    .navTR {
+      .naviTR {
+        ul {
+          li {
+            a {
+              padding: 30px;
+              font-size: 20px;
+            }
+          }
+        }
+        a img {
+          max-width: 160px;
+          padding-left: 15px;
+          margin-top: 25px;
+        }
+      }
+    }
+    .titleTextTR {
+      align-self: center;
+      h2 {
+        font-size: 36px;
+        font-weight: 300;
+        span {
+          font-weight: 500;
+          font-size: 42px;
+        }
+      }
+    }
+    .mainTextTR {
+      padding-top: 0px;
+      grid-area: mainText;
+      font-size: 15px;
+      line-height: 30px;
+    }
+    .imgBoxHolderTR {
+      transform: translate(40px, 50px);
+      .imgBoxTR {
+        .mainimgTR {
+          max-width: 500px;
+        }
+      }
+    }
+    .thumbsBoxTR {
+      transform: translateX(50px);
+      padding-bottom: 45px;
+      img {
+        padding: 5px;
+        transform: scale(0.7);
+        transition: 0.35s;
+        &:hover {
+          transform: scale(0.85) translateY(-5px);
+        }
+      }
+    }
+    .descBoxTR {
+      p {
+        font-size: 50px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1366px) and (min-height: 801px) and (orientation: landscape) {
   .wrapperTR {
     grid-template-columns: 1.3fr 2fr 4fr 4fr 2fr 1.3fr;
     grid-template-rows: 1fr 3.5fr 5.5fr 1fr;
@@ -666,7 +732,73 @@
     }
   }
 }
-@media only screen and (max-width: 1280px) and (orientation: landscape) {
+@media only screen and (max-width: 1240px) and (max-height: 800px) and (orientation: landscape) {
+  .wrapperTR {
+    grid-template-columns: 1.3fr 2fr 4fr 4fr 2fr 1.3fr;
+    grid-template-rows: 1fr 3.5fr 5.5fr 1fr;
+    .navTR {
+      .naviTR {
+        ul {
+          li {
+            a {
+              padding: 30px;
+              font-size: 20px;
+            }
+          }
+        }
+        a img {
+          max-width: 160px;
+          padding-left: 15px;
+          margin-top: 25px;
+        }
+      }
+    }
+    .titleTextTR {
+      align-self: center;
+      h2 {
+        font-size: 36px;
+        font-weight: 300;
+        span {
+          font-weight: 500;
+          font-size: 42px;
+        }
+      }
+    }
+    .mainTextTR {
+      padding-top: 0px;
+      grid-area: mainText;
+      font-size: 13px;
+      line-height: 30px;
+    }
+    .imgBoxHolderTR {
+      transform: translate(40px, 50px);
+      .imgBoxTR {
+        .mainimgTR {
+          max-width: 400px;
+        }
+      }
+    }
+    .thumbsBoxTR {
+      transform: translateX(50px);
+      padding-bottom: 45px;
+      img {
+        padding: 5px;
+        transform: scale(0.7);
+        transition: 0.35s;
+        &:hover {
+          transform: scale(0.85) translateY(-5px);
+        }
+      }
+    }
+    .descBoxTR {
+      p {
+        font-size: 50px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1280px) and (min-height: 800px) and (orientation: landscape) {
   .wrapperTR {
     grid-template-columns: 1.3fr 1fr 5fr 5fr 1fr 1.3fr;
     grid-template-rows: 1fr 3.5fr 5.5fr 1fr;
@@ -754,6 +886,198 @@
     }
     .circleTR {
       transform: translate(100px, 250px);
+    }
+  }
+}
+@media only screen and (max-width: 960px) and (orientation: landscape) {
+  * {
+    overflow: auto !important;
+  }
+  body {
+    overflow: auto;
+    .wrapperTR {
+      height: 160vh;
+      grid-template-columns: 1fr;
+      grid-template-rows: 0.3fr 1fr 1.5fr 2fr 0.4fr;
+      grid-template-areas:
+        "nav"
+        "titleText"
+        "imgBox"
+        "mainText"
+        "sideright";
+
+      .navTR {
+        margin-top: 30px;
+        align-self: start;
+        padding: 0;
+
+        .naviTR {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          ul {
+            display: none;
+          }
+          a.hamburger {
+            i.fa-bars {
+              margin-left: 50px;
+              margin-right: 50px;
+
+              display: inline-block;
+              overflow: hidden;
+              font-size: 32px;
+              text-decoration: none;
+              color: #7a2c40;
+            }
+            i.fa-times {
+              margin-left: 50px;
+              margin-right: 50px;
+              display: inline-block;
+              overflow: hidden;
+              font-size: 32px;
+              text-decoration: none;
+              color: #7a2c40;
+              transform: translateX(-3px);
+            }
+          }
+          a.logoBoxTR {
+            img {
+              content: url("../phts/logomobile.png");
+              max-width: 300px;
+              padding-left: 50px;
+              margin-top: 0;
+            }
+          }
+        }
+
+        .mobilenaviTR {
+          display: flex;
+          position: fixed;
+          justify-content: center;
+          align-items: center;
+          backdrop-filter: blur(100px);
+          z-index: 1;
+          top: 59%;
+          left: 150%;
+          width: 100%;
+          height: 90%;
+          transform: translate(-50%, -50%);
+          background-color: #7a2c40;
+          transition: 0.2s ease-in;
+          .fa-times {
+            position: absolute;
+            font-size: 24px;
+            z-index: 2;
+          }
+          ul {
+            li {
+              list-style: none;
+              text-align: center;
+              a {
+                font-size: 38px;
+                line-height: 250%;
+                text-decoration: none;
+                color: white;
+              }
+            }
+          }
+        }
+      }
+
+      .titleTextTR {
+        width: 100%;
+        align-self: center;
+        justify-self: center;
+        margin-top: 0px;
+        h2 {
+          text-align: center;
+          font-size: 50px;
+          font-weight: 400;
+          line-height: normal;
+          span {
+            font-weight: 600;
+            font-size: 54px;
+          }
+        }
+      }
+      .mainTextTR {
+        display: flex;
+        padding-top: 60px;
+        grid-area: mainText;
+        font-size: 20px;
+        align-items: center;
+        justify-content: center;
+        line-height: 200%;
+        p {
+          margin: 0 30px;
+          text-align: center;
+          color: white;
+          a {
+            color: white;
+          }
+        }
+      }
+      .imgBoxHolderTR {
+        grid-area: imgBox;
+        align-self: center;
+        justify-self: center;
+        transform: translate(0px, 0px);
+        .imgBoxTR {
+          .mainimgTR {
+            max-width: 600px;
+          }
+        }
+      }
+      .socialBoxholderTR {
+        justify-self: center;
+        align-self: center;
+        ul.socialBoxTR {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          li {
+            padding: 20px;
+          }
+        }
+      }
+
+      .thumbsBoxTR {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        transform: translateX(00px);
+        padding-bottom: 0px;
+        img {
+          cursor: pointer;
+          padding: 10px;
+          transform: scale(0.7);
+        }
+      }
+      .descBoxTR {
+        grid-area: description;
+        justify-self: center;
+        align-self: start;
+        p {
+          font-size: 64px;
+          color: #de6d74;
+          margin-bottom: 0px;
+          font-weight: 300;
+          padding-right: 0px;
+        }
+      }
+      .circleTR {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 150%;
+        height: 100%;
+        transform: translate(-400px, 300px);
+        clip-path: circle(3000px at right 1000px);
+        transition: 0.1s;
+        z-index: -1;
+      }
     }
   }
 }
