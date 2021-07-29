@@ -1,6 +1,6 @@
 # PaczusiKawusia
 
-Strona mojej ulubionej cukierni
+Strona mojej ulubionej cukierni - https://lukaszpodlipski.github.io/PaczusiKawusia/
 
 Cześć,
 to mój pierwszy projekt strony z wieloma podstronami. Zmierzyłem się z problemami wynikającymi z jej budowy i starałem się poradzić z nimi samemu. 
